@@ -18,13 +18,7 @@ a {
     padding-top: 1%;
     margin-left: 3%;
 }
-.heroImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-top: 5%;
-}
+
 .headerBox {
     background-color: #F9BEB8;
     height: 110px;
@@ -34,6 +28,23 @@ a {
 .heroBox {
     background-color: #F9F8F7;
     height: 800px;
+}
+.heroImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5%;
+}
+button {
+    font-family: lato;
+    color: black;
+    background-color: #B5F9FD;
+    margin-top: 5%;
+}
+.texas {
+    text-align: right;
+    padding-inline-end: 5%;
 }
 .footerBox {
     background-color: #F9BEB8;
@@ -59,7 +70,59 @@ a2 {
 }
 .workBox {
     background-color: #F9F8F7;
-    height: 400px;
+    height: auto;
+}
+.image-grid {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.vimg {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+h7 {
+    font-size: large;
+    font-family: lato;
+    text-align: center;
+}
+p2 {
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.vtext {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+.timg {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+}
+.himg {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+}
+.uimg {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
 }
 h1 {
     font-family: lato;
@@ -81,14 +144,6 @@ p1 {
     font-size: large;
     padding-left: 5%;
     color: #9D364F;
-}
-button {
-    font-family: lato;
-    color: black;
-    background-color: #B5F9FD;
-    margin-left: 45%;
-    margin-top: 5%;
-   
 }
 h3 {
     font-family: lato;
