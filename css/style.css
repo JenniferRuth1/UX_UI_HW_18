@@ -82,6 +82,7 @@ a2 {
     background-color: #F9F8F7;
     height: 400px;
 }
+
 /*<!-My UX Skills section coded using css flex->*/
 .skillsBox {
     background-color: #F9F8F7;
@@ -229,7 +230,7 @@ h2 {
     color: #9D364F;
 }
 p1 {
-    font-family: open-sans;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: right;
     font-size: large;
     padding-left: 5%;
