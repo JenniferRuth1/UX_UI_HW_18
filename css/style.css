@@ -18,7 +18,10 @@ a {
     padding-top: 1%;
     margin-left: 3%;
 }
-
+#logo {
+    width: 90px;
+    height: 50%; 
+}
 .headerBox {
     background-color: #F9BEB8;
     height: 110px;
@@ -27,24 +30,39 @@ a {
 }
 .heroBox {
     background-color: #F9F8F7;
-    height: 800px;
+    height: 700px;
 }
-.heroImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-top: 5%;
-}
+#hero {
+    width: 400px;
+    height: 50%;
+    margin-left: 35%;
+    margin-top: 2%;
+    }
 button {
     font-family: lato;
     color: black;
     background-color: #B5F9FD;
-    margin-top: 5%;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: .1s;
 }
-.texas {
-    text-align: right;
-    padding-inline-end: 5%;
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#buttonf {
+    position: absolute;
+    top: 80%;
+    left: 46%;
+}
+#texas {
+    position: absolute;
+    bottom: 18%;
+    padding-left: 47%;
 }
 .footerBox {
     background-color: #F9BEB8;
@@ -64,14 +82,42 @@ a2 {
     background-color: #F9F8F7;
     height: 400px;
 }
+/*<!-My UX Skills section coded using css flex->*/
 .skillsBox {
     background-color: #F9F8F7;
-    height: 400px;
+    height: 460px;
+}
+.cards {
+   display: flex;
+}
+.card {
+    margin-left: 2.5%;
+    margin-bottom: 8%;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    transition: 0.3s;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 2px 16px;
+  }
+
+h8 {
+   font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+p {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .workBox {
     background-color: #F9F8F7;
     height: auto;
 }
+/*<!-My Work Section Constructed using CSS Grid->*/
 .image-grid {
     width: 90%;
     margin: 0 auto;
@@ -84,38 +130,70 @@ a2 {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    text-align: center;
+}
+#v {
+    display: inline-block;
+    width: 100px;
+    height: 85%;
+    margin-left: 40%;
 }
 h7 {
-    font-size: large;
+    display: inline-block;
+    font-size: x-large;
     font-family: lato;
-    text-align: center;
+    margin-left: 5%;
 }
 p2 {
-    font-size: medium;
+    display: inline-block;
+    font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%;
 }
 .vtext {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    text-align: center;
+}
+#buttona {
+    display: inline-block;
+    margin-left: 55%;
+    margin-top: 5%;
 }
 .timg {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    text-align: center;
+}
+#t {
+    display: inline-block;
+    width: 100px;
+    height: 90%;
+    margin-left: 40%;
+}
+#buttonb {
+    display: inline-block;
+    margin-left: 55%;
+    margin-top: 5%;
 }
 .himg {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
-    text-align: center;
+}
+#h {
+    display: inline-block;
+    width: 300px;
+    height: 90%;
+    margin-left: 20%;
+}
+#buttonc {
+    display: inline-block;
+    margin-left: 55%;
+    margin-top: 5%;
 }
 .uimg {
     grid-column-start: 2;
@@ -124,11 +202,23 @@ p2 {
     grid-row-end: 5;
     text-align: center;
 }
+#u {
+    display: inline-block;
+    width: 400px;
+    height: 75%;
+    margin-left: 10%; 
+}
+#buttond {
+    display: inline-block;
+    margin-left: 55%;
+    margin-top: 5%;
+}
 h1 {
     font-family: lato;
     text-align: center;
     font-size: x-large;
-    padding-top: 1%;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 h2 {
     font-family: lato;
@@ -150,27 +240,19 @@ h3 {
     text-align: left; 
     font-size: large; 
     color: #9D364F;
+    margin-left: 5%;
     padding-top: 2%;
-    padding-left: 5%;
 }
-h4 {
-    font-family: lato;
-    text-align: left; 
-    font-size: large; 
-    color: #9D364F;
-    padding-left: 5%; 
-}
-h5 {
-    font-family: lato;
-    text-align: left; 
-    font-size: large; 
-    color: #9D364F;
-    padding-left: 5%;
-}
-h6 {
-    font-family: lato;
-    text-align: left; 
-    font-size: large; 
-    color: #9D364F;
-    padding-left: 5%;
+@media screen and (max-width: 600px) {
+    .cards {
+        display: columns;
+    };
+    .card {
+        width: 100%;
+    }
+    .image-grid {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+
 }
