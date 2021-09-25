@@ -55,14 +55,15 @@ button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 #buttonf {
-    position: absolute;
-    top: 80%;
+    display: flex;
+    position: relative;
+    margin-top: 5%;
     left: 46%;
 }
 #texas {
-    position: absolute;
+    position: relative;
     bottom: 18%;
-    padding-left: 47%;
+    padding-left: 38%;
 }
 .footerBox {
     background-color: #F9BEB8;
